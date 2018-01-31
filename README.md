@@ -1,8 +1,18 @@
-# Output file and directory structures to HTML, JSON and XML using the Linux tree command
-                                                                                                                                                                                                                  
+#### Table of Contents
+
+- [Introduction](#introduction)
+- [Tree Options](#tree-options)
+- [HTML Output](#html-output)
+- [XML Output](#xml-output)
+- [JSON Output](#json-output)
+- [Optional Options](#optional-options)
+- [Credits](#credits)
+- [Hello](#hello)
+
+# Introduction
 [Tree][1] is a recursive directory listing command that produces a depth indented listing of files, which is colorised ala dircolors if the LS_COLORS environment variable is set and output is to tty. Tree has been ported and reported to work under the following operating systems: Linux, FreeBSD, OS X, Solaris, HP/UX, Cygwin, HP Nonstop and OS/2. 
 
-## Tree Options
+# Tree Options
 Tree has a vast array of options and I've gone through each of them to fine-tune and perfect the outputs for HTML, JSON and XML formats. To see a list of available options simply run `tree --help` from your terminal.
 
 Below is a list of only the options I used to create workable formats for HTML, JSON and XML data formats.
@@ -15,7 +25,7 @@ Below is a list of only the options I used to create workable formats for HTML, 
  * `-J`: Prints out an JSON representation of the tree.
  * `-H baseHREF`: Prints out HTML format with baseHREF as top directory.
 
-## HTML Output
+# HTML Output
 ```zsh
 $ tree -hDC -H "/Users/macbookpro/2018-Clients" "/Users/macbookpro/2018-Clients" -o "tree outputs/html-output.html"
 ```
@@ -23,7 +33,7 @@ This will produce the following output in HTML format.
 
 ![HTML Output][5]
 
-## XML Output
+# XML Output
 ```zsh
 $ tree -hDC -X "/Users/macbookpro/2018-Clients" -o "tree outputs/xml-output.xml"
 ```
@@ -151,7 +161,7 @@ This will produce the following output in XML format.
 </tree>
 ```
 
-## JSON Output
+# JSON Output
 ```zsh
 $ tree -DC -J "/Users/macbookpro/2018-Clients" -o "tree outputs/json-output.json"
 ```
@@ -276,20 +286,20 @@ This will produce the following output in JSON format.
 ]
 ```
 
-## Optional Options
+# Optional Options
 The following options are useful but not necessarily required for the various outputs. I've listed them below so that I don't forget about them or how useful they can be when the time calls for it. 
 
  * `-a`: Includes hidden files. By default these are hidden.
  * `-f`: Prints the full path prefix. Useful for XML/JSON and not needed for HTML.
  * `-T string`: Replace the default HTML title and H1 header with string.
 
-## Credits
+# Credits
 The following resources helped me put this all together.
 
  * [tree v1.7.0][1] by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro.
  * [Fake File Generator][4]: a brilliant resource that allows you to create files that can vary in size, extension and naming yet contain no data. This was used to put the directory tree together and to allow me to upload these files so that you can play around with `tree` as well.
 
-## Hello
+# Hello
 
 [![Adele - Hello][6]][7]
 
