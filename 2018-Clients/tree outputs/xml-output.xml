@@ -107,13 +107,14 @@
       <file name="wEWVz6Mt61Le.bin" size="24576" time="Jan 31  3:58"></file>
       <file name="xaFc3vEWF28O.bin" size="24576" time="Jan 31  3:58"></file>
     </directory>
-    <directory name="tree outputs" size="160" time="Jan 31  7:45">
-      <file name="html-output.html" size="21931" time="Jan 31  7:58"></file>
-      <file name="xml-output.xml" size="0" time="Jan 31  7:59"></file>
+    <directory name="tree outputs" size="192" time="Jan 31  8:02">
+      <file name="html-output.html" size="22121" time="Jan 31  8:09"></file>
+      <file name="json-output.json" size="9058" time="Jan 31  8:02"></file>
+      <file name="xml-output.xml" size="8255" time="Jan 31  7:59"></file>
     </directory>
   </directory>
   <report>
     <directories>18</directories>
-    <files>74</files>
+    <files>75</files>
   </report>
 </tree>

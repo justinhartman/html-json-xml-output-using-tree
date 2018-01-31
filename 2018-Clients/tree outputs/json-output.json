@@ -107,8 +107,8 @@
       {"type":"file","name":"xaFc3vEWF28O.bin","size":24576,"time":"Jan 31  3:58"}
     ]},
     {"type":"directory","name":"tree outputs","size":192,"time":"Jan 31  8:02","contents":[
-      {"type":"file","name":"html-output.html","size":22113,"time":"Jan 31  8:00"},
-      {"type":"file","name":"json-output.json","size":0,"time":"Jan 31  8:02"},
+      {"type":"file","name":"html-output.html","size":22121,"time":"Jan 31  8:09"},
+      {"type":"file","name":"json-output.json","size":9058,"time":"Jan 31  8:02"},
       {"type":"file","name":"xml-output.xml","size":8255,"time":"Jan 31  7:59"}
     ]}
   ]},

@@ -8,7 +8,7 @@ Tree has a vast array of options and I've gone through each of them to fine-tune
 Below is a list of only the options I used to create workable formats for HTML, JSON and XML data formats.
 
  * `-o filename`: Output to a file instead of stdout.
- * `-h`: Print the size in a more human readable way. Only really works for HTML output as the JSON and XML objects use raw data as an output.
+ * `-h`: Print the size in a more human readable way. Only displays human readable values for the HTML format. JSON and XML objects use raw values for the output.
  * `-D`: Print the date of last modification or (-c) status change.
  * `-C`: Turn colorisation on always.
  * `-X`: Prints out an XML representation of the tree.
@@ -153,7 +153,7 @@ This will produce the following output in XML format.
 
 ## JSON Output
 ```zsh
-$ tree -hDC -J "/Users/macbookpro/2018-Clients" -o "tree outputs/json-output.json"
+$ tree -DC -J "/Users/macbookpro/2018-Clients" -o "tree outputs/json-output.json"
 ```
 This will produce the following output in JSON format.
 
