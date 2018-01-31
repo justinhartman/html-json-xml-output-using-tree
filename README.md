@@ -284,8 +284,9 @@ The following options are useful but not necessarily required for the various ou
  * `-T string`: Replace the default HTML title and H1 header with string.
 
 ## Credits
-The following resources aided by assisting me in putting this all together.
+The following resources helped me put this all together.
 
+ * [tree v1.7.0][1] by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro.
  * [Fake File Generator][4]: a brilliant resource that allows you to create files that can vary in size, extension and naming yet contain no data. This was used to put the directory tree together and to allow me to upload these files so that you can play around with `tree` as well.
 
 ## Hello
@@ -312,6 +313,6 @@ Justin Hartman
 [2]: mailto:justin@hartman.me?subject=Saying+Hello
 [3]: http://justin.hartman.me
 [4]: http://www.fakefilegenerator.com
-[5]: https://i.snag.gy/ufLSeZ.jpg
+[5]: https://i.snag.gy/a6WKU5.jpg
 [6]: https://i.snag.gy/N63zuD.jpg
 [7]: https://youtu.be/YQHsXMglC9A?t=72
