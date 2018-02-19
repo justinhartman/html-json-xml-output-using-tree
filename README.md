@@ -27,7 +27,7 @@ Below is a list of only the options I used to create workable formats for HTML, 
 
 # HTML Output
 ```zsh
-$ tree -hDC -H "/Users/macbookpro/2018-Clients" "/Users/macbookpro/2018-Clients" -o "tree outputs/html-output.html"
+$ tree -hDC -H /Users/macbookpro/2018-Clients /Users/macbookpro/2018-Clients -o outputs/html-output.html
 ```
 This will produce the following output in HTML format.
 
@@ -35,7 +35,7 @@ This will produce the following output in HTML format.
 
 # XML Output
 ```zsh
-$ tree -hDC -X "/Users/macbookpro/2018-Clients" -o "tree outputs/xml-output.xml"
+$ tree -hDC -X /Users/macbookpro/2018-Clients -o outputs/xml-output.xml
 ```
 This will produce the following output in XML format.   
 
@@ -163,7 +163,7 @@ This will produce the following output in XML format.
 
 # JSON Output
 ```zsh
-$ tree -DC -J "/Users/macbookpro/2018-Clients" -o "tree outputs/json-output.json"
+$ tree -DC -J /Users/macbookpro/2018-Clients -o outputs/json-output.json
 ```
 This will produce the following output in JSON format.
 
